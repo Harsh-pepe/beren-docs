@@ -1,0 +1,22 @@
+===============================
+END-USER COMPUTING
+(AMAZON WORKSPACE)
+End User Computing (EUC) encompasses user access to enterprise applications and data 
+anywhere, anytime, using one or more devices to access virtual desktop infrastructure (VDI) located either at the enterprise’s premises or in the public cloud.
+EUC provides support for a broad range of client devices including traditional PC, tablet, smartphone, or thin-client terminal device. EUC devices can either
+be provided by the enterprise or bring-your-own-device (BYOD) owned by employees or other users.
+==============================
+AWS WORKSPACE
+AWS EC2
+AWS DIRECTORY SERVICE
+VPC
+SUBNET
+ROUTE TABLE
+INSTANCE TYPES 
+KEY ENCRYPTION
+SECURITY GROUP
+ACTIVE DIRECTORY DOMAIN SERVICE AND DOMAIN CONTROLLER
+LINUX
+AWS Lambda 
+API GATEWAY
+================================

@@ -1,0 +1,16 @@
+sudo su -
+cd /sftpdata
+cd /arwruser
+==All studies in this directory==arwruser
+tree
+
+===FOR NEW STUDY====
+study name
+	program name
+		vendor name
+			Datatype
+
+mkdir -p
+
+storage account
+blob reader
