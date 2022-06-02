@@ -1,0 +1,206 @@
+====================================
+Aws:
+IAM Code : 722555594368
+Username : harshr@circulants.com	
+Pass: Treehasleaf@6969
+(Password should be greater then 14 digits(Strong policy))
+=====================================
+Databricks:
+Email: harshr@circulants.com
+Pass: Treehasleaf@6969
+Login url: https://accounts.cloud.databricks.com/workspaces
+=============================================================
+Spotfire: 
+Private IP:172.16.2.14:80
+==============================================================
+workspace:
+WSpdx+JRGR3B
+Username: Harshr
+Password: Welcome@123
+IP for directory service: 172.16.2.138
+===============================================================
+sFTP 
+172.16.1.169
+ec2-user
+-----
+berenusr
+byB79!1AC44Xp5oV$k
+-------------
+beren_landing
+le!U#zm4g%b%
+-------------------------------
+mount -t nfs 172.16.2.199:BerenSAS_NetappVolumes /Sftpdata
+--------------------------------------------------------------
+===============================================================
+Redshift
+Admin user name: beren-redshift-user
+Database name: test-berren-db
+Password: Redshift$circulants123
+===============================================================
+netapp
+172.16.2.194	
+admin
+Admin Password: %$jlvml0VY52V@4N2N81
+
+
+=========
+Nesssus
+localhost:8834
+======================
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/legacy/brn-002/healthy_volunteer/hv-102/quanterix/blinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/legacy/brn-002/healthy_volunteer/hv-102/quanterix/unblinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/legacy/brn-002/healthy_volunteer/hv-102/beren_lab/blinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/legacy/brn-002/healthy_volunteer/hv-102/beren_lab/unblinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/brn-002/healthy_volunteer/hv-102/quanterix/blinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/brn-002/healthy_volunteer/hv-102/quanterix/unblinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/brn-002/healthy_volunteer/hv-102/beren_lab/blinded/
+mkdir -p /nfsdata/sftpdata/berenusr/clinical/brn-002/healthy_volunteer/hv-102/beren_lab/unblinded/
+
+chown -R root:sftp_users /nfsdata/sftpdata/berenusr
+chown -R berenusr:sftp_users /nfsdata/sftpdata/berenusr/clinical
+==========================
+email_id="datatransfer@berentx.onmicrosoft.com"
+password="t4o=?u^X:DwTlVMI|TV"
+t4o=?u^X:DwTlVMI|TV
+==============================================
+SAS Credentials 
+172.16.2.118
+username: sas
+Password: Sas4sas
+===============================================
+/goldzone mounted on SAS server 172.16.2.199
+accessing goldzone through ssh from databricks
+===============================================
+/sftpdata mounted on sFTP server 172.16.1.169
+/sftpdata/
+===============================================
+BerenPROD-SFTP (instance name)
+join to domain
+berenthe
+============|================================================================
+172.16.1.169| Test sFTP server
+			|
+			|
+			|
+172.16.2.118|Test SAS server
+			|
+			|
+			|
+----------------------------------------------------------------------------------------------------------
+172.16.2.243|Production sFTP server}
+||||||||user: berengold|||pass: e4YGd$U6vVmVKX@GI8Ha		1.	|update
+usr: berenprodusr | Pass: Ne9F&Tj^!7PbAK*q@Qsg    |
+usr: berenprod_landing pass : r*#eTJ9hu21Dki!@!k4H
+		2. 	|hostname(berenprod)(hostnamectl set-hostname berenprod)
+		3.	|Stop the local dns setting and insert the directory service dns (search berentherapeutics.com |nameserver 172.16.2.110 |nameserver 172.16.3.147)
+		4.	|join the domain controller(yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients)
+		5.	|realm join berentherapeutics.com --user=harshr
+		6.	|realm list			
+		7.	|Python virtual environment(python3 -m venv  /home/ec2-user/monitor-venv)
+==========================
+SAS PROD
+User: sas pass: vshHNaNnL3YZ&WRcFKyO|
+============|================================================================\
+SAS 
+x1e.2xlagrge 
+=============
+Databricks
+Redshift 
+Dynamodb
+
+Databricks:
+IAM Role: 722555594368:role/db-699913b797be05a1eae94a8656732229-iam-role
+S3 bucket: db-699913b797be05a1eae94a8656732229-s3-root-bucket
+
+
+====================
+Redshift admin
+Username: berenredshift-prod
+pass: !gvhvkjA8t!E
+================================
+Logs:
+Dynamodb
+Redshift
+sFTP
+SAS Logs 
+=====================================
+Databricks Token
+sftp-prod = dapia446574677ef38a35aa7cbbbced4a825
+
+
++=========================
+usermod -a -G sftp_users berenprodusr
+usermod -g sftp_users berenprodusr (to make primary user of the group)
+==================================
+netapp not creating volume from portal(172.16.2.194) 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++REMINDER+++++++++++++++++++++
+Logs:
+Redshift: It will capture and store logs for two months.
+
+==========================
+Sharemoney$6969
+Askyourselftoverify$69
+cha=Dontshare$1234
+==========================================
+GROUPS
+
+Programming : BRN_SP_RW, BRN_SP_R, BRN_SP_UNBL  
+Data Management : BRN_DM_RW, BRN_DM_R, BRN_DM_UNBL 
+Biostatistics : BRN_STAT_RW, BRN_STAT_R, BRN_STAT_UNBL
+General:  SAS_ADMIN , IT_ADMIN  
+
+Permission by Areas: 
+
+SFTP :  DM and Programming (Courtney and Raj)
+Gold Zone (SAS related) : Biostat and Programming (Valeria and Raj)
+========================
+arund@circulants.com
+
+
+
+gHv#P&22zw$
+Treehasleafwhocares@6969
+
+
+arund@circulants.com
+
+
+
+gHv#P&22zw$
+=======================
+JuanPierre.Pretorius@novotech-cro.com
+jppretorius
+Novotech@123
+=================
+harshr@circulants.com
+nEG2u9#20E1M$4
+
+
+
+
+
+https://d-926778bae3.awsapps.com/start#/
+
+=============================================
+Circulants:
+
+Redshift:
+redshiftusercir
+Welcome$123
+========================
+a.kimmle@medpace.com
+Adam Kimmle
+Welcome$123
+
+[02-02-2022 19:26] Harsh Rathore
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+
+[02-02-2022 19:26] Harsh Rathore
+ADD: PEERDNS=yesDNS1=
+
+[02-02-2022 19:27] Harsh Rathore
+DNS2=
+
+[02-02-2022 19:28] Harsh Rathore
+vi /etc/NetworkManager/NetworkManager.confADD:dns=nonesave both the file and modify /etc/resolv.conf]
+

@@ -1,0 +1,28 @@
+1. Rename the PC as per your asset code.
+2. go to windows update-> check update.
+3. go to run -> type runservices.msc->
+salect service -> windows license manager-> automatic->stop and start (Apply ok)
+-> windows update -> automatic-> stop and start (Apply ok)
+4. go to -> windows product key-> for home->
+chage product key -> Q4VBF-N2RXX-76HJH-87YK7-R9CKG
+restart pc
+chage product key -> NRDJD-9TQHQ-FPWGC-M694J-HMH3B
+5. Restart
+6.Add to AD->
+go to settings-> accounts->access school or work-> remove ID
+then connect-> join Azure Active Directory.
+add your email ID and pwd
+7. restart the system and login to your ID.
+8. get the detail of user. Hostname, serialnumber and HWID.
+
+open cmd
+type- hostname
+type- wmic bios get serialnumber
+
+open windows powershell (run as administrator)
+md c:\HWID
+Set-Location c:\HWID
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+Install-Script -Name Get-WindowsAutopilotInfo -Force
+$env:Path += ";C:\Program Files\WindowsPowerShell\Scripts"
+Get-WindowsAutopilotInfo.ps1 -OutputFile AutopilotHWID.csv
